@@ -9,6 +9,7 @@ Machine learning and statistical analysis in this field is a relatively new conc
 # **2.0 Data**
 
 The data collected was obtained using Statsbomb’s free demo dataset found [here](https://github.com/statsbomb/open-data). It contains data recovered from over 800 games across 6 different leagues and is provided as JSON files exported from StatsBomb’s official Data API. Each individual game is stored as a list of dictionaries where each dictionary represents an event within the game. Figure 1 gives an event instance which in this example was a miscontrol.
+
 ![eventjson](https://user-images.githubusercontent.com/73793779/114302961-6c3a6a80-9ac3-11eb-870f-bbebc789cb7e.png)
 # **3.0 Strategy** 
 
@@ -32,7 +33,7 @@ Figure 6 can be seen to be a bar plot of the respective distances seen in figure
 ![length of shot](https://user-images.githubusercontent.com/73793779/114303516-5b3f2880-9ac6-11eb-9f15-3d181e099207.png)
 
 
-## **4.3 Distance From Goal**
+## **4.3 Angle to Goal**
 
 Figure 8 gives a physical representation of the angle to goal. It is the angle between the black centre line and the blue or red connecting line from the shot location to the centre of the goal. 
 
